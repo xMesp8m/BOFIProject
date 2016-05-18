@@ -1,0 +1,22 @@
+﻿
+<div class="container">
+    <div class="page-header">
+        <h1>Board Games</h1>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2 pull-right buttonNew">
+            <button class="btn btn-success" ng-click="newBoardGame()">Add Board Game</button>
+        </div>
+    </div>
+    <div class="col-lg-10 col-md-10 col-md-offset-1">
+
+        <ul class="list-group">
+            <li ng-click="viewDetails(boardGame.Id)" class="list-group-item" ng-repeat="boardGame in boardGames">
+                {{boardGame.Name}}
+            </li>
+        </ul>
+    </div>
+</div>

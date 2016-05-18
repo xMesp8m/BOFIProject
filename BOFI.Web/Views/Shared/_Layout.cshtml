@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html ng-app="bofiApp">
+<head>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOFI Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body ng-cloak>
+    @RenderBody()
+</body>
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/app")
+    @Scripts.Render("~/bundles/controllers")
+    @Scripts.Render("~/bundles/services")
+</html>
