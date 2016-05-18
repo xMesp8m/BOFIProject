@@ -1,0 +1,19 @@
+Hi I just wanted to add a few notes to the project.
+
+I simplfied some enviroment things in order to speed up the development.
+The Web projects were hosted on Local IIS with a virtual directory.
+I did this in order to simplify the development and avoid the implementation,
+of CORS in WebAPI. However I did put some initial code to implement it , but
+it's commented.
+
+I've added some unit test to the project but not for all the projects , just 
+for services. I used Moq , Xunit and Autofixer.
+
+I just had time to add one frontend test. It test an Angular controller, and
+it uses Karma , Jasmine, Angular Mocks . To use this test nodeJs need to be
+present and node packages restored. I use node to test the frontend
+because angular it's easier to test on it.
+
+Thanks for your time.
+
+

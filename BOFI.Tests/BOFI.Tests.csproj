@@ -99,7 +99,6 @@
     <Compile Include="BoardGameServicesTest.cs" />
     <Compile Include="Infraestructure\AutoFixtureMoqAutoDataAttribute.cs" />
     <Compile Include="Services\BoardGameServicesTests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
